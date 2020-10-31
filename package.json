@@ -1,0 +1,34 @@
+{
+  "name": "hackersuop-sessions",
+  "version": "1.0.0",
+  "description": "Hackers' Club Official Sessions Website",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackersUOP/sessions.git"
+  },
+  "keywords": [
+    "HackersClubUOP",
+    "Hackers'",
+    "Hackers Sessions",
+    "GitHub Sessions",
+    "Developer Series Sessions",
+    "Competitive Programming Sessions",
+    "UOP"
+  ],
+  "author": "HackersUOP",
+  "license": "LGPL-2.1",
+  "bugs": {
+    "url": "https://github.com/HackersUOP/sessions/issues"
+  },
+  "homepage": "https://github.com/HackersUOP/sessions#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "prettier": "2.1.1"
+  }
+}
