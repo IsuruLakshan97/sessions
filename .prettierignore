@@ -1,0 +1,4 @@
+assets/demo
+*.min.**
+*vendors.**
+node_modules/
