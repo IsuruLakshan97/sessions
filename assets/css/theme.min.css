@@ -4197,8 +4197,11 @@ ul.pagination .page-numbers.current { color: #16171e; }
 .one-roadmap-item:last-of-type { padding-bottom: 0; }
 .one-roadmap-item:last-of-type .one-roadmap-bar:after { content: none; }
 
-.one-roadmap-item-checked .one-roadmap-bar, .one-roadmap-item-checked .one-roadmap-info { opacity: 0.6; }
-.one-roadmap-item-checked .one-roadmap-mark { opacity: 1; }
+.one-roadmap-item-active .one-roadmap-bar, .one-roadmap-item-active .one-roadmap-info { opacity: 1; }
+.one-roadmap-item-active .one-roadmap-mark { opacity: 1; }
+
+.one-roadmap-item-inactive .one-roadmap-bar, .one-roadmap-item-inactive .one-roadmap-info { opacity: 0.6; }
+.one-roadmap-item-inactive .one-roadmap-mark { opacity: 0.6; }
 
 .one-roadmap { padding: 45px 40px 45px 60px; }
 .one-roadmap:before { content: ''; display: inline-block; position: absolute; top: 0; left: 0; bottom: 0; right: 0; border: 1px solid; opacity: 0.3; }
